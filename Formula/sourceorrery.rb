@@ -2,28 +2,28 @@
 class Sourceorrery < Formula
   desc "Encrypted local secrets vault with a cloud-secrets-manager-style lifecycle API"
   homepage "https://sourceorrery.ai"
-  version "0.1.4"
+  version "0.2.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/Netizine/sourceorrery/releases/download/v0.1.4/sourceorrery-0.1.4-aarch64-apple-darwin.tar.gz"
-      sha256 "672bbfb822c38b1896fb18cce60a75d7fb92a29d6e2d1abe9e40db0ff729342d"
+      url "https://github.com/Netizine/sourceorrery/releases/download/v0.2.0/sourceorrery-0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "6af232583dbcaac070c9e37443b4540a0ecb8e2655c9188abb74aa47b25d5721"
     end
     on_intel do
-      url "https://github.com/Netizine/sourceorrery/releases/download/v0.1.4/sourceorrery-0.1.4-x86_64-apple-darwin.tar.gz"
-      sha256 "850a9e930365a5f6297bd86bda82ac63cb53dcb68e86c816c8c1c66a08ed1a7a"
+      url "https://github.com/Netizine/sourceorrery/releases/download/v0.2.0/sourceorrery-0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "1e7ae863f52f8dbf69f039a3aad400df97f8e71985d8afbc45be0c18f1ada68e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Netizine/sourceorrery/releases/download/v0.1.4/sourceorrery-0.1.4-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "8d82ad99501ba90854e6b8a4bc6682fb1e6d2b0e220630cbc2eac42daffb950b"
+      url "https://github.com/Netizine/sourceorrery/releases/download/v0.2.0/sourceorrery-0.2.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "f43203c124409d03c4fe0cbcb3881d60969e30fb9d0f023eeb3004d33f60df5c"
     end
     on_intel do
-      url "https://github.com/Netizine/sourceorrery/releases/download/v0.1.4/sourceorrery-0.1.4-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "5bd1a8bcc30e5cb1150734cd3bb94300ee8ec48fc637284f1b620cd61d75136d"
+      url "https://github.com/Netizine/sourceorrery/releases/download/v0.2.0/sourceorrery-0.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "6164f5a0d706391128a9c89c05fca1d92d7af2300cef6c070ca2be25a987ec5c"
     end
   end
 
