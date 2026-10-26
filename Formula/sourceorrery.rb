@@ -2,28 +2,28 @@
 class Sourceorrery < Formula
   desc "Encrypted local secrets vault with a cloud-secrets-manager-style lifecycle API"
   homepage "https://sourceorrery.ai"
-  version "0.3.0"
+  version "0.3.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/Netizine/sourceorrery/releases/download/v0.3.0/sourceorrery-0.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "0a265589dbba8ae2382008daef071ca31ba502aa10846ab990a969982efb624b"
+      url "https://github.com/Netizine/sourceorrery/releases/download/v0.3.1/sourceorrery-0.3.1-aarch64-apple-darwin.tar.gz"
+      sha256 "8aaa1ef8a324a56075d5c098cbfbf8fd9313c447ec100b5bf78000e3204a3b4b"
     end
     on_intel do
-      url "https://github.com/Netizine/sourceorrery/releases/download/v0.3.0/sourceorrery-0.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "b9573c24e4917106371b1d430ab5e8482b99614a2dba5387f862219f82e9b4d2"
+      url "https://github.com/Netizine/sourceorrery/releases/download/v0.3.1/sourceorrery-0.3.1-x86_64-apple-darwin.tar.gz"
+      sha256 "6952660e0717cedf9d7b33aa9ae884ec49306348f1aa79bdfcda2d6b449d01e3"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Netizine/sourceorrery/releases/download/v0.3.0/sourceorrery-0.3.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "2b4376a7bb865922ec9f7a2f916ac84dff8850b20c34d61aaf6927e491f5c864"
+      url "https://github.com/Netizine/sourceorrery/releases/download/v0.3.1/sourceorrery-0.3.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "589950ff96e661bfef07b02680b3b94d715160105caea9337eb5725a5f67a445"
     end
     on_intel do
-      url "https://github.com/Netizine/sourceorrery/releases/download/v0.3.0/sourceorrery-0.3.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "8e7359f9dee0cf3b07341fc255c3f1a0d420d0bdd31319abe7c08d939d6a5b0c"
+      url "https://github.com/Netizine/sourceorrery/releases/download/v0.3.1/sourceorrery-0.3.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "358d01da6b4a2f40a95f4be3ac983cdc55c38112595e56ec34b48e41bb06cd6c"
     end
   end
 
